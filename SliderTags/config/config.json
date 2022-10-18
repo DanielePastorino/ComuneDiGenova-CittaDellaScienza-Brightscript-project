@@ -1,0 +1,44 @@
+{
+  "video": {
+    "screenmode": "3840x2160x60p",
+    "rotation": "identity"
+  },
+  "rete": {
+    "dhcp": false,
+    "gate": true,
+    "ethernet": {
+      "enable": true,
+      "ipaddress": "10.0.12.200",
+      "netmask": "255.255.255.0",
+      "gateway": "10.0.12.2"
+    }
+  },
+  "audio": {
+    "hdmi": false
+  },
+  "debug": {
+    "ssh": true
+  },
+  "media": {
+    "loop": "data\\contents\\loop.mp4"
+  },
+  "tags": [
+    {
+      "tag": "ec67f06f",
+      "media": "data\\contents\\01.mp4"
+    },
+    {
+      "tag": "bc19d16f",
+      "media": "data\\contents\\02.mp4"
+    },
+    {
+      "tag": "7cd5db6f",
+      "media": "data\\contents\\03.mp4"
+    },
+    {
+      "tag": "8ce3db6f",
+      "media": "data\\contents\\04.mp4"
+    }
+  ],
+  "waitingtime": 0
+}
